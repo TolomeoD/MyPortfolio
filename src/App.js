@@ -1,24 +1,16 @@
-import logo from './signature.svg';
 import './App.css';
+import Home from "./components/Home";
+import Work from "./components/Work";
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Software Engineer
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Work
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/work" element={<Work/>} />
+      </Routes>
+    </>
   );
 }
 
