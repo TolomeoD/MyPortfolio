@@ -1,14 +1,17 @@
+import Carousel from "./Carousel";
 import image from "./../logo192.png"
+import image2 from "./../signature.svg"
 import { Link } from "react-router-dom";
 
 export default function Gallery() {
+  const images = [image,image2,image,image2]
   return (
     <ul className="Gallery">
       <li className="Card">
+        <div className="image-container">
+          <Carousel images={images} to={"/work/DomainManager"}/>
+        </div>
         <Link to="/work/DomainManager">
-          <div className="image-container">
-            <img src={image} className="Gallery-image" alt="logo" />
-          </div>
           <div className="Card-title">
             Domain Manager
           </div>
@@ -19,10 +22,10 @@ export default function Gallery() {
         </Link>
       </li>
       <li className="Card">
+        <div className="image-container">
+          <Carousel images={images} to={"/work/Oneboard"}/>
+        </div>
         <Link to="/work/Oneboard">
-          <div className="image-container">
-            <img src={image} className="Gallery-image" alt="logo" />
-          </div>
           <div className="Card-title">
             Oneboard
           </div>
@@ -33,10 +36,10 @@ export default function Gallery() {
         </Link>
       </li>
       <li className="Card">
+        <div className="image-container">
+          <Carousel images={images} to={"/work/Where'sRobdo"}/>
+        </div>
         <Link to="/work/Where'sRobdo">
-          <div className="image-container">
-            <img src={image} className="Gallery-image" alt="logo" />
-          </div>
           <div className="Card-title">
             Where's Robdo
           </div>
@@ -47,10 +50,10 @@ export default function Gallery() {
         </Link>
       </li>
       <li className="Card">
+        <div className="image-container">
+          <Carousel images={images} to={"/work/EthicalEats"}/>
+        </div>
         <Link to="/work/EthicalEats">
-          <div className="image-container">
-            <img src={image} className="Gallery-image" alt="logo" />
-          </div>
           <div className="Card-title">
             Ethical Eats
           </div>
@@ -60,10 +63,10 @@ export default function Gallery() {
         </Link>
       </li>
       <li className="Card">
+        <div className="image-container">
+          <Carousel images={images} to={"/work/McDatabases'"}/>
+        </div>
         <Link to="/work/McDatabases'">
-          <div className="image-container">
-            <img src={image} className="Gallery-image" alt="logo" />
-          </div>
           <div className="Card-title">
             McDatabases'
           </div>
@@ -72,6 +75,9 @@ export default function Gallery() {
           </p>
         </Link>
       </li>
+      <div>
+        <Carousel images={images} to={""} />
+      </div>
     </ul> 
   )
 }
