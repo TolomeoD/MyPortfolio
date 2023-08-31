@@ -1,5 +1,16 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
 .Home {
   text-align: center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
 .Home-logo {
@@ -9,6 +20,8 @@
 
 .Home-header {
   background-color: #282828;
+  animation: gradient 4s infinite;
+  animation-direction: alternate;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,12 +31,61 @@
   color: white;
 }
 
+@keyframes gradient {
+  from {background-color: #18191A;}
+  to {background-color: #3A3B3C;}
+}
+
 .Home-link {
-  margin: 20px;
+  margin: 1rem;
   color: #61dafb;
   text-decoration: none;
   padding: 5px;
   border: 1px solid #dadada;
   border-radius: 7px;
   border-color: #61dafb;
+}
+
+.Header {
+  padding: 3rem 2rem 0; 
+}
+
+.Header a {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header-title {
+  margin: 0;
+  font-size: calc(10px + 24vmin);
+}
+
+.Gallery {
+  padding: 0 10rem 2rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.Card {
+  flex: 0 0 28%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card-title {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.Card p {
+  font-size: calc(6px + 1vmin);
 }

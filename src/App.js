@@ -16,37 +16,37 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/work" element={
           <>
-            <Header/>
+            <Header title="Portfolio"/>
             <Gallery/>
           </>
         } />
         <Route path="work/Where'sRobdo" element={
           <>
-            <Header/>
+            <Header title="Where's Robdo"/>
             <WheresRobdo/>
           </>
         } />
         <Route path="work/McDatabases'" element={
           <>
-            <Header/>
+            <Header title="McDatabases'"/>
             <McDatabases/>
           </>
         } />
         <Route path="work/Oneboard" element={
           <>
-            <Header/>
+            <Header  title="Oneboard"/>
             <Oneboard/>
           </>
         } />
         <Route path="work/EthicalEats" element={
           <>
-            <Header/>
+            <Header  title="Ethical Eats"/>
             <EthicalEats/>
           </>
         } />
         <Route path="work/DomainManager" element={
           <>
-            <Header/>
+            <Header  title="Domain Manager"/>
             <DomainManager/>
           </>
         } />

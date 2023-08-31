@@ -1,4 +1,5 @@
 import logo from "./../signature.svg";
+import image from "./../logo192.png";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -16,6 +17,15 @@ export default function Home() {
           Work
         </Link>
       </header>
+      <div>
+        <img src={logo} alt="logo" />
+        <div>
+          About Me
+        </div>
+        <div>
+          Hello, my name is Dominick Tolomeo and I am a 4th year Computer Science Student at Oregon State University.
+        </div>
+      </div>
     </div>
   )
 }
