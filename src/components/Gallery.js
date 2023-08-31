@@ -6,7 +6,9 @@ export default function Gallery() {
     <ul className="Gallery">
       <li className="Card">
         <Link to="/work/DomainManager">
-          <img src={image} className="Gallery-image" alt="logo" />
+          <div className="image-container">
+            <img src={image} className="Gallery-image" alt="logo" />
+          </div>
           <div className="Card-title">
             Domain Manager
           </div>
@@ -18,7 +20,9 @@ export default function Gallery() {
       </li>
       <li className="Card">
         <Link to="/work/Oneboard">
-          <img src={image} className="Gallery-image" alt="logo" />
+          <div className="image-container">
+            <img src={image} className="Gallery-image" alt="logo" />
+          </div>
           <div className="Card-title">
             Oneboard
           </div>
@@ -30,18 +34,23 @@ export default function Gallery() {
       </li>
       <li className="Card">
         <Link to="/work/Where'sRobdo">
-          <img src={image} className="Gallery-image" alt="logo" />
+          <div className="image-container">
+            <img src={image} className="Gallery-image" alt="logo" />
+          </div>
           <div className="Card-title">
             Where's Robdo
           </div>
           <p>
-            Where's Robdo esque game.
+          Where's waldo-esque game created as a final project for Oregon State University's CS290 class.
+          This game invovles finding an image on a variety of randomly generated background.
           </p>
         </Link>
       </li>
       <li className="Card">
         <Link to="/work/EthicalEats">
-          <img src={image} className="Gallery-image" alt="logo" />
+          <div className="image-container">
+            <img src={image} className="Gallery-image" alt="logo" />
+          </div>
           <div className="Card-title">
             Ethical Eats
           </div>
@@ -52,7 +61,9 @@ export default function Gallery() {
       </li>
       <li className="Card">
         <Link to="/work/McDatabases'">
-          <img src={image} className="Gallery-image" alt="logo" />
+          <div className="image-container">
+            <img src={image} className="Gallery-image" alt="logo" />
+          </div>
           <div className="Card-title">
             McDatabases'
           </div>

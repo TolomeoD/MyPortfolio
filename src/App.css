@@ -1,3 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: calc(10px + 1vmin);
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -7,10 +17,36 @@ p {
   text-align: center;
 }
 
+.typewriter {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter span {
+  font-family: 'VT323', sans-serif;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .25em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
 .Home {
   text-align: center;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .Home-logo {
@@ -19,7 +55,10 @@ p {
 }
 
 .Home-header {
-  background-color: #282828;
+  /* background-color: #282828; */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #3A3B3C;
   animation: gradient 4s infinite;
   animation-direction: alternate;
   min-height: 100vh;
@@ -32,18 +71,29 @@ p {
 }
 
 @keyframes gradient {
-  from {background-color: #18191A;}
-  to {background-color: #3A3B3C;}
+  from {background-color: #3A3B3C;}
+  to {background-color: #18191A;}
 }
 
 .Home-link {
+  background-color: #b1f2ff;
+  font-family: 'VT323', sans-serif;
   margin: 1rem;
-  color: #61dafb;
+  /* color: #61dafb; */
+  color: #3776ab;
   text-decoration: none;
   padding: 5px;
   border: 1px solid #dadada;
   border-radius: 7px;
-  border-color: #61dafb;
+  border-color: #3776ab;
+  transition: width 2s, height 2s, transform 2s;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+.Home-link:hover {
+  opacity: 1;
+  transform: scale(1.2);
 }
 
 .Header {
@@ -56,8 +106,14 @@ p {
 }
 
 .Header-title {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 100;
   margin: 0;
-  font-size: calc(10px + 24vmin);
+  font-size: calc(10px + 18vmin);
+}
+
+.smaller {
+  font-size: calc(10px + 10vmin)
 }
 
 .Gallery {
@@ -65,8 +121,8 @@ p {
   margin: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  gap: 2rem;
+  justify-content: space-evenly;
+  gap: 4rem;
   flex-wrap: wrap;
 }
 
@@ -74,7 +130,6 @@ p {
   flex: 0 0 28%;
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 .Card:hover {
@@ -82,10 +137,43 @@ p {
 }
 
 .Card-title {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.Card a {
+  height: 100%;
+  width: 100%;
 }
 
 .Card p {
   font-size: calc(6px + 1vmin);
+  text-align: left;
+}
+
+.Card .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.About-me-container {
+  color: white;
+  background-color: #808080;
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.About-me .title {
+  font-size: calc(10px + 2vmin);
 }
