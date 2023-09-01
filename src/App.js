@@ -11,47 +11,45 @@ import WheresRobdo from './components/WheresRobdo';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/work" element={
-          <>
-            <Header title="Portfolio"/>
-            <Gallery/>
-          </>
-        } />
-        <Route path="work/Where'sRobdo" element={
-          <>
-            <Header title="Where's Robdo"/>
-            <WheresRobdo/>
-          </>
-        } />
-        <Route path="work/McDatabases'" element={
-          <>
-            <Header title="McDatabases'"/>
-            <McDatabases/>
-          </>
-        } />
-        <Route path="work/Oneboard" element={
-          <>
-            <Header  title="Oneboard"/>
-            <Oneboard/>
-          </>
-        } />
-        <Route path="work/EthicalEats" element={
-          <>
-            <Header  title="Ethical Eats"/>
-            <EthicalEats/>
-          </>
-        } />
-        <Route path="work/DomainManager" element={
-          <>
-            <Header  title="Domain Manager"/>
-            <DomainManager/>
-          </>
-        } />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/portfolio" element={
+        <>
+          <Header title="Portfolio"/>
+          <Gallery/>
+        </>
+      } />
+      <Route path="portfolio/Where'sRobdo" element={
+        <>
+          <Header title="Where's Robdo"/>
+          <WheresRobdo/>
+        </>
+      } />
+      <Route path="portfolio/McDatabases'" element={
+        <>
+          <Header title="McDatabases'"/>
+          <McDatabases/>
+        </>
+      } />
+      <Route path="portfolio/Oneboard" element={
+        <>
+          <Header  title="Oneboard"/>
+          <Oneboard/>
+        </>
+      } />
+      <Route path="portfolio/EthicalEats" element={
+        <>
+          <Header  title="Ethical Eats"/>
+          <EthicalEats/>
+        </>
+      } />
+      <Route path="portfolio/DomainManager" element={
+        <>
+          <Header  title="Domain Manager"/>
+          <DomainManager/>
+        </>
+      } />
+    </Routes>
   );
 }
 

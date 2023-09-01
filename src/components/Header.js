@@ -4,10 +4,10 @@ export default function Header(props) {
   const path = window.location.pathname
   return (
     <div className="Header">
-      <Link to={path === "/work" ? "/" : "/work"} >
-        {path === "/work" ? "Home" : "Work"}
+      <Link to={path === "/portfolio" ? "/" : "/portfolio"} >
+        {path === "/portfolio" ? "Home" : "Portfolio"}
       </Link>
-      <div className={path === "/work" ? "Header-title" : "Header-title smaller"}>
+      <div className={path === "/portfolio" ? "Header-title" : "Header-title smaller"}>
         {props.title}
       </div>
     </div>

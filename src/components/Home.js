@@ -1,5 +1,5 @@
-import logo from "./../signature.svg";
-import image from "./../logo192.png";
+import logo from "./../images/signature.svg";
+import profile from "./../images/IMG_8625.jpg";
 import '@fontsource/vt323';
 import { Link } from "react-router-dom";
 
@@ -15,19 +15,23 @@ export default function Home() {
         </div>
         <Link
           className="Home-link"
-          to="/work"
+          to="/portfolio"
         >
-          Work
+          Portfolio
         </Link>
       </header>
       <div className="About-me-container">
-        <img src={image} alt="logo" />
+        <div className="profile">
+          <img src={profile} alt="logo" />
+        </div>
         <div className="About-me">
           <div className="title">
-            About Me
+            Who is this guy?
           </div>
           <p>
-            Hello, my name is Dominick Tolomeo and I am a 4th year Computer Science Student at Oregon State University.
+            Hello, my name is Dominick Tolomeo and I am currently a 4th year Computer Science major at Oregon State University.
+            I have previously worked for CSC and Oneboard as a UI/UX Developer.  My interests include artificial intelegence,
+            game design, data science, and web development.  
           </p>
         </div>
       </div>
