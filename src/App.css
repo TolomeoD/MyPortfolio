@@ -75,6 +75,17 @@ p {
   to {background-color: #18191A;}
 }
 
+.scroll-down {
+  position: absolute;
+  bottom: 1vmin;
+  right: 2vmin;
+}
+
+.scroll-down:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .Home-link {
   background-color: #b1f2ff;
   font-family: 'VT323', sans-serif;

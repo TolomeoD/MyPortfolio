@@ -1,7 +1,7 @@
 import logo from "./../images/signature.svg";
-import profile from "./../images/IMG_8625.jpg";
 import '@fontsource/vt323';
 import { Link } from "react-router-dom";
+import { Link as ScrollDown }  from "react-scroll"
 
 export default function Home() {
   return (
@@ -15,26 +15,14 @@ export default function Home() {
         </div>
         <Link
           className="Home-link"
-          to="/portfolio"
+          to="portfolio"
         >
           Portfolio
         </Link>
+        <ScrollDown to="/about" spy={true} smooth={true} offset={50} duration={500} className="scroll-down" >
+          <i className="fas fa-angles-down" />
+        </ScrollDown>
       </header>
-      <div className="About-me-container">
-        <div className="profile">
-          <img src={profile} alt="logo" />
-        </div>
-        <div className="About-me">
-          <div className="title">
-            Who is this guy?
-          </div>
-          <p>
-            Hello, my name is Dominick Tolomeo and I am currently a 4th year Computer Science major at Oregon State University.
-            I have previously worked for CSC and Oneboard as a UI/UX Developer.  My interests include artificial intelegence,
-            game design, data science, and web development.  
-          </p>
-        </div>
-      </div>
     </div>
   )
 }
