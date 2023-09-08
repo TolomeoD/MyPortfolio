@@ -1,7 +1,6 @@
-import logo from "./../images/signature.svg";
+import logo from "./images/signature.svg";
 import '@fontsource/vt323';
 import { Link } from "react-router-dom";
-import { Link as ScrollDown }  from "react-scroll"
 
 export default function Home() {
   return (
@@ -19,9 +18,6 @@ export default function Home() {
         >
           Portfolio
         </Link>
-        <ScrollDown to="/about" spy={true} smooth={true} offset={50} duration={500} className="scroll-down" >
-          <i className="fas fa-angles-down" />
-        </ScrollDown>
       </header>
     </div>
   )

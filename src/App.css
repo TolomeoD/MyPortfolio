@@ -75,17 +75,6 @@ p {
   to {background-color: #18191A;}
 }
 
-.scroll-down {
-  position: absolute;
-  bottom: 1vmin;
-  right: 2vmin;
-}
-
-.scroll-down:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-
 .Home-link {
   background-color: #b1f2ff;
   font-family: 'VT323', sans-serif;
@@ -108,7 +97,7 @@ p {
 }
 
 .Header {
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   padding: 3rem 2rem 0; 
 }
 
@@ -277,4 +266,71 @@ p {
 
 .profile img{
   width: 100%;
+}
+
+.overview {
+  margin-bottom: 5%;
+}
+
+.header {
+  text-align: center;
+  font-weight: 400;
+  padding: 0 25%;
+  font-size: calc(10px + 3vmin)
+}
+
+.robdo-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.robdo-body .container {
+  height: auto;
+  width: 80%;
+  margin: 0 auto 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.robdo-body .container img {
+  height: 35vmin;
+}
+
+.robdo-body .container p {
+  text-align: left;
+}
+
+.robdo-body .overview div {
+  padding: 0 25%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.list {
+  margin-bottom: 0;
+}
+
+.robdo-body .container .img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.robdo-body .img-container img{
+  height: 25vmin;
+}
+
+.robdo-body .container .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

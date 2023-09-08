@@ -1,4 +1,4 @@
-import profile from "./../images/IMG_8625.jpg";
+import profile from "./images/IMG_8625.jpg";
 import React from "react";
 
 export default function About() {
