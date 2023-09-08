@@ -226,13 +226,11 @@ p {
 }
 
 .About-me-container {
-  color: white;
-  background-color: #808080;
   padding: 2rem 10rem;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 2rem;
 }
 
@@ -246,15 +244,13 @@ p {
 
 .About-me p {
   text-align: left;
-  font-family: Roboto, Helvetica, sans-serif;
-  font-weight: 300;
   font-size: calc(10px + 1vmin);
 }
 
 .About-me .title {
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 100;
-  font-size: calc(10px + 4vmin);
+  font-size: calc(10px + 8vmin);
 }
 
 .profile {
@@ -273,6 +269,7 @@ p {
 }
 
 .header {
+  margin-top: 0;
   text-align: center;
   font-weight: 400;
   padding: 0 25%;
@@ -333,4 +330,24 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.learned {
+  margin-bottom: 2%;
+}
+
+.next-project {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: calc(10px + 6vmin);
+  border: 1px solid;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  align-self: center;
+  padding: 0 1% 0.5%;
+  width: fit-content;
+}
+
+.next-project:hover {
+  transform: scale(1.1);
 }

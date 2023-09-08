@@ -1,6 +1,9 @@
 import HomeMock from "./images/RobdoMock.png"
 import GalleryMock from "./images/gallery.png"
-import topics from "./images/topics.PNG"
+import Home from "./images/Where'sRobdo.PNG";
+import Gallery from "./images/Where'sRobdo2.PNG";
+import Topics from "./images/topics.PNG"
+import { Link } from "react-router-dom";
 
 export default function WheresRobdo() {
   return (
@@ -17,7 +20,7 @@ export default function WheresRobdo() {
       </div>
       <div className="container">
         <div className="image">
-          <img src={topics} alt="" />
+          <img src={Topics} alt="" />
         </div>
         <div className="col">
           <h2 className="list header">
@@ -51,13 +54,13 @@ export default function WheresRobdo() {
             Initial Idea
           </h2>
           <p>
-            Given the nature of this project, we wanted to create something entirely unique and landed on the idea of building a game.
-            Since the project itself was for a Web-Dev class, we didn't want to get to carried away with the complexity of the game and
-            decided to build our website around a Where's Waldo-esque game because of its simple and replayable nature. We also wanted to
-            show appreciation for our Professor, Rob, and given his permission we were allowed to incorperate him into our project. To 
-            the left are our initial mock-ups for the home and gallery pages.  The home page would allow users to play and like a puzzle,
-            and had a button to randomly generate a new puzzle.  We also wanted to use a gallery page to fulfill the backed requirements of 
-            the app, and intended to show users the puzzles that have received the most likes.
+            Given the nature of this project we wanted to create something entirely unique, and landed on the idea of building a game
+            because we all shared an interest in gaming. Since the project itself was for a Web-Dev class, we didn't want to get to carried
+            away with the complexity of the game and decided to build our website around a Where's Waldo-esque game because of its simple 
+            and replayable nature. We also wanted to show appreciation for our Professor, Rob, and given his permission we were allowed to
+            incorperate him into our project. To the left are our initial mock-ups for the home and gallery pages.  The home page would allow
+            users to play and like a puzzle, and had a button to randomly generate a new puzzle.  We also wanted to use a gallery page to
+            fulfill the backed requirements of the app, and intended to show users the puzzles that have received the most likes.
           </p>
         </div>
         <div className="img-container">
@@ -66,22 +69,22 @@ export default function WheresRobdo() {
         </div>
       </div>
       <div className="container">
+        <div className="img-container">
+          <img src={Home} alt="" />
+          <img src={Gallery} alt="" />
+        </div>
         <div className="col"> 
           <h2 className="header">
             Final Version
           </h2>
           <p>
             Our group only had a few deviations from our intial idea and mock-ups.  We opted for users to be able to see all puzzles that they
-            liked in their gallery, and included how many likes each puzzle had instead of showing the most liked puzzles.  We also deciced 
-            against a carousel design for the gallery and created a grid based design for better usability.  
+            liked in their gallery, and included how many likes each puzzle had instead of showcasing the most liked puzzles.  We also deciced 
+            against a carousel design for the gallery and created a grid based design for enhanced usability.  
           </p>
         </div>
-        <div className="img-container">
-          <img src={GalleryMock} alt="" />
-          <img src={GalleryMock} alt="" />
-        </div>
       </div>
-      <div className="overview">
+      <div className="learned">
         <div className="col">
           <h2 className="list header">
             What I learned
@@ -111,6 +114,9 @@ export default function WheresRobdo() {
           </ul>
         </div>
       </div>
+      <Link className="next-project" to="/portfolio/DomainManager">
+        Next Project
+      </Link>
     </div>
   )
 }
