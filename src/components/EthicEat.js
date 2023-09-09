@@ -91,7 +91,7 @@ export default function EthicEat() {
           </ul>
         </div>
       </div>
-      <Link className="next-project" to="/portfolio/McDatabases'">
+      <Link className="next-project" to="/portfolio/McDatabases">
         Next Project
       </Link>
     </div>

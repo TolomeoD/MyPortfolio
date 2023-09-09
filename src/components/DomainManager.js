@@ -1,8 +1,5 @@
 import HomeMock from "./images/RobdoMock.png"
 import GalleryMock from "./images/gallery.png"
-import Home from "./images/Where'sRobdo.PNG";
-import Gallery from "./images/Where'sRobdo2.PNG";
-import Topics from "./images/topics.PNG"
 import { Link } from "react-router-dom";
 
 export default function DomainManager() {
