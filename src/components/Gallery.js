@@ -12,7 +12,6 @@ import EE1 from "./images/EthicalEats.PNG";
 import EE2 from "./images/EthicalEats2.PNG";
 import EE3 from "./images/EthicalEats3.PNG";
 import MD1 from "./images/McDatabases.PNG";
-import MD2 from "./images/McDatabases2.PNG";
 import MD3 from "./images/McDatabases3.PNG";
 import { Link } from "react-router-dom";
 
@@ -21,7 +20,7 @@ export default function Gallery() {
   const WRs = [WR1, WR2, WR3]
   const OBs = [OB1, OB2, OB3]
   const EEs = [EE1, EE2, EE3]
-  const MDs = [MD1, MD3, MD2]
+  const MDs = [MD1, MD3]
   return (
     <>
       <ul className="Gallery">
@@ -69,9 +68,9 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={EEs} to={"/portfolio/EthicalEats"}/>
+            <Carousel images={EEs} to={"/portfolio/EthicEat"}/>
           </div>
-          <Link to="/portfolio/EthicalEats">
+          <Link to="/portfolio/EthicEat">
             <div className="Card-title">
               Ethical Eats
             </div>
@@ -90,7 +89,7 @@ export default function Gallery() {
               McDatabases'
             </div>
             <p>
-              Database driven website created as a final project for Oregon States Databases class.
+              Database driven website created as a final project for Oregon State University's Databases class.
               Created a fictional McDonald's application where users can manipulate a database utilizing MariaDB.
             </p>
           </Link>

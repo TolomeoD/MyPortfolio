@@ -1,6 +1,6 @@
 import './App.css';
 import DomainManager from './components/DomainManager';
-import EthicalEats from './components/EthicalEats';
+import EthicEat from './components/EthicEat';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Home from "./components/Home";
@@ -37,10 +37,10 @@ function App() {
           <Oneboard/>
         </>
       } />
-      <Route path="portfolio/EthicalEats" element={
+      <Route path="portfolio/EthicEat" element={
         <>
           <Header  title="Ethical Eats"/>
-          <EthicalEats/>
+          <EthicEat/>
         </>
       } />
       <Route path="portfolio/DomainManager" element={

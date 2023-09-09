@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function WheresRobdo() {
   return (
-    <div className="robdo-body">
+    <div className="project-body">
       <div className="overview">
         <h2 className="header">
           Project Overview
@@ -28,16 +28,16 @@ export default function WheresRobdo() {
           </h2>
           <ul>
             <li>
-              The app uses HTML and CSS to implement a well-designed client interface.
+              The app uses HTML and CSS to implement a well-designed client interface
             </li>
             <li>
-              The app uses client-side JS to enable relevant user interactions with the client interface.
+              The app uses client-side JS to enable relevant user interactions with the client interface
             </li>
             <li>
-              The app is served using a Node.js-based (or other approved) serving stack.
+              The app is served using a Node.js-based (or other approved) serving stack
             </li>
             <li>
-              The app dynamically generates pages based on data stored permanently in a back end data store, such as MongoDB (or even a JSON file).
+              The app dynamically generates pages based on data stored permanently in a back end data store, such as MongoDB (or even a JSON file)
             </li>
             <li>
               The app’s client interface communicates asynchronously with the app’s server to create, read, update, and/or delete content in the back end data store

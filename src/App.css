@@ -272,17 +272,17 @@ p {
   margin-top: 0;
   text-align: center;
   font-weight: 400;
-  padding: 0 25%;
+  padding: 0 5%;
   font-size: calc(10px + 3vmin)
 }
 
-.robdo-body {
+.project-body {
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-.robdo-body .container {
+.project-body .container {
   height: auto;
   width: 80%;
   margin: 0 auto 5%;
@@ -290,15 +290,15 @@ p {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.robdo-body .container img {
-  height: 35vmin;
+.project-body .container img {
+  height: 30vmin;
 }
 
-.robdo-body .container p {
+.project-body .container p {
   text-align: left;
 }
 
-.robdo-body .overview div {
+.project-body .overview div {
   padding: 0 25%;
 }
 
@@ -314,22 +314,22 @@ p {
   margin-bottom: 0;
 }
 
-.robdo-body .container .img-container {
+.project-body .container .img-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.robdo-body .img-container img{
+.project-body .img-container img{
   height: 25vmin;
 }
 
-.robdo-body .container .image {
+.project-body .container .image {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .learned {
@@ -350,4 +350,11 @@ p {
 
 .next-project:hover {
   transform: scale(1.1);
+}
+
+.project-body .container .img-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }

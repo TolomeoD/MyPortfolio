@@ -13,8 +13,8 @@ export default function About() {
           </div>
           <p>
             Hello, my name is Dominick Tolomeo and I am currently a 4th year Computer Science major at Oregon State University.
-            I have previously worked for CSC and Oneboard as a UI/UX Developer.  My interests include artificial intelegence,
-            game design, data science, and web development.  
+            My graduating year is expected to be 2024, and I have over a year of professional software engineering/web-development experience.  
+            My interests include artificial intelegence, game design, data science, and web development.  Welcome to my Portfolio!
           </p>
         </div>
       </div>
