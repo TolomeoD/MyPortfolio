@@ -1,7 +1,5 @@
 import About from "./About";
 import Carousel from "./Carousel";
-import image from "./images/logo192.png";
-import image2 from "./images/signature.svg";
 import WR1 from "./images/Where'sRobdo.PNG";
 import WR2 from "./images/Where'sRobdo2.PNG";
 import WR3 from "./images/Where'sRobdo3.PNG";
@@ -13,14 +11,16 @@ import EE2 from "./images/EthicalEats2.PNG";
 import EE3 from "./images/EthicalEats3.PNG";
 import MD1 from "./images/McDatabases.PNG";
 import MD3 from "./images/McDatabases3.PNG";
+import DM1 from "./images/CSClogo.png"
+import DM2 from "./images/DomainManager.jpg"
 import { Link } from "react-router-dom";
 
 export default function Gallery() {
-  const images = [image,image2,image,image2]
   const WRs = [WR1, WR2, WR3]
   const OBs = [OB1, OB2, OB3]
   const EEs = [EE1, EE2, EE3]
   const MDs = [MD1, MD3]
+  const DMs = [DM1, DM2]
   return (
     <>
       <ul className="Gallery">
@@ -40,7 +40,7 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={images} to={"/portfolio/DomainManager"}/>
+            <Carousel images={DMs} to={"/portfolio/DomainManager"}/>
           </div>
           <Link to="/portfolio/DomainManager">
             <div className="Card-title">
@@ -82,11 +82,11 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={MDs} to={"/portfolio/McDatabases'"}/>
+            <Carousel images={MDs} to={"/portfolio/McDatabases"}/>
           </div>
-          <Link to="/portfolio/McDatabases'">
+          <Link to="/portfolio/McDatabases">
             <div className="Card-title">
-              McDatabases'
+              McDatabases
             </div>
             <p>
               Database driven website created as a final project for Oregon State University's Databases class.

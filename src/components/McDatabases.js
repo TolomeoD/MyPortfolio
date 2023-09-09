@@ -45,7 +45,7 @@ export default function McDatabases() {
             Our Database
           </h2>
           <p>
-            The Database used for this project was created using SQL code learned whie taking the course.  We then created
+            The Database used for this project was created using knowledge from this course.  The project asked students to create a database for an arbitrairy client and allowed for full creative expression, so we decided to theme our database around the McDonald's mobile app. We then created
             example data to fill each table, and included cascading functionality on updates and deletes.  The relational database
             utilized a 3NF design to simplify data management, avoid data anomalies, and ensure referential integrity.
           </p>

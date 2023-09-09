@@ -13,39 +13,8 @@ export default function DomainManager() {
           Project Overview
         </h2>
         <div>
-          The following web-app was created as a final group project for Oregon State University's
-          Web-Development class.  It is a culmination of all lessons taught in this class, and 
-          students were allowed full creative freedom. 
-        </div>
-      </div>
-      <div className="container">
-        <div className="image">
-          <img src={Topics} alt="" />
-        </div>
-        <div className="col">
-          <h2 className="list header">
-            Criteria for the Project
-          </h2>
-          <ul>
-            <li>
-              The app uses HTML and CSS to implement a well-designed client interface.
-            </li>
-            <li>
-              The app uses client-side JS to enable relevant user interactions with the client interface.
-            </li>
-            <li>
-              The app is served using a Node.js-based (or other approved) serving stack.
-            </li>
-            <li>
-              The app dynamically generates pages based on data stored permanently in a back end data store, such as MongoDB (or even a JSON file).
-            </li>
-            <li>
-              The app’s client interface communicates asynchronously with the app’s server to create, read, update, and/or delete content in the back end data store
-            </li>
-            <li>
-              Utilize all course topics listed to the left
-            </li>
-          </ul>
+          The following describes the contributions I made to CSC's Domain Manager system.
+          The key features I assisted with were the bulk search, truncation, and domain deletion.
         </div>
       </div>
       <div className="container">
@@ -66,22 +35,6 @@ export default function DomainManager() {
         <div className="img-container">
           <img src={HomeMock} alt="" />
           <img src={GalleryMock} alt="" />
-        </div>
-      </div>
-      <div className="container">
-        <div className="img-container">
-          <img src={Home} alt="" />
-          <img src={Gallery} alt="" />
-        </div>
-        <div className="col"> 
-          <h2 className="header">
-            Final Version
-          </h2>
-          <p>
-            Our group only had a few deviations from our intial idea and mock-ups.  We opted for users to be able to see all puzzles that they
-            liked in their gallery, and included how many likes each puzzle had instead of showcasing the most liked puzzles.  We also deciced 
-            against a carousel design for the gallery and created a grid based design for enhanced usability.  
-          </p>
         </div>
       </div>
       <div className="learned">
