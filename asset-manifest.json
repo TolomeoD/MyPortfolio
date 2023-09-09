@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bc8e5915.css",
+    "main.js": "/Portfolio/static/js/main.f021a117.js",
+    "static/media/gallery.png": "/Portfolio/static/media/gallery.ae5b4ae2e11b51eb3946.png",
+    "static/media/Where'sRobdo2.PNG": "/Portfolio/static/media/Where'sRobdo2.faacf5383c0c45e77de3.PNG",
+    "static/media/Where'sRobdo.PNG": "/Portfolio/static/media/Where'sRobdo.040f24b76e50fcef0220.PNG",
+    "static/media/RobdoMock.png": "/Portfolio/static/media/RobdoMock.8b803de60c763b5889e6.png",
+    "static/media/Where'sRobdo3.PNG": "/Portfolio/static/media/Where'sRobdo3.bf6169b086a64d0d0037.PNG",
+    "static/media/IMG_8625.jpg": "/Portfolio/static/media/IMG_8625.2950d10d1709ac7c291f.jpg",
+    "static/media/DomainManager.jpg": "/Portfolio/static/media/DomainManager.3fcfb3dae61a77dc444b.jpg",
+    "static/media/EthicalEats3.PNG": "/Portfolio/static/media/EthicalEats3.8b8a993374d2ab9637f7.PNG",
+    "static/media/EthicalEats2.PNG": "/Portfolio/static/media/EthicalEats2.9097f3694e9be2410821.PNG",
+    "static/media/Oneboard.PNG": "/Portfolio/static/media/Oneboard.6b578523406c71956a2f.PNG",
+    "static/media/Oneboard4.PNG": "/Portfolio/static/media/Oneboard4.7e159d07bb8fc5d15068.PNG",
+    "static/media/McdatabasesDBcode.PNG": "/Portfolio/static/media/McdatabasesDBcode.168855e8a970e6898fbb.PNG",
+    "static/media/OneboardHome.PNG": "/Portfolio/static/media/OneboardHome.b989396b7d629e8e8da5.PNG",
+    "static/media/McDatabases3.PNG": "/Portfolio/static/media/McDatabases3.67b59bc27f8406260d97.PNG",
+    "static/media/topics2.PNG": "/Portfolio/static/media/topics2.30318ddd7a4cc34fabfb.PNG",
+    "static/media/topics.PNG": "/Portfolio/static/media/topics.11bbc0ad1eb776680363.PNG",
+    "static/media/Oneboard2.PNG": "/Portfolio/static/media/Oneboard2.c09da0b209a5af2958c8.PNG",
+    "static/media/Oneboard3.PNG": "/Portfolio/static/media/Oneboard3.24eef7c2f9dbcdef99a9.PNG",
+    "static/media/McDatabases.PNG": "/Portfolio/static/media/McDatabases.7f118f296f1f903b8127.PNG",
+    "static/media/EthicalEats.PNG": "/Portfolio/static/media/EthicalEats.7ff56886df33042606d3.PNG",
+    "static/media/CSClogo.png": "/Portfolio/static/media/CSClogo.f993322ab237a722ae53.png",
+    "static/media/vt323-latin-400-normal.woff2": "/Portfolio/static/media/vt323-latin-400-normal.215cd3bafbd733f2843c.woff2",
+    "static/media/vt323-latin-ext-400-normal.woff2": "/Portfolio/static/media/vt323-latin-ext-400-normal.245b71a0db82a4291250.woff2",
+    "static/media/signature.svg": "/Portfolio/static/media/signature.d518c73396ff1570f3f82761c873dded.svg",
+    "static/media/vt323-latin-400-normal.woff": "/Portfolio/static/media/vt323-latin-400-normal.f6b0632f45d84bc09089.woff",
+    "static/media/vt323-latin-ext-400-normal.woff": "/Portfolio/static/media/vt323-latin-ext-400-normal.3cbc5257de6ee5f8385b.woff",
+    "static/media/vt323-vietnamese-400-normal.woff2": "/Portfolio/static/media/vt323-vietnamese-400-normal.c92c9b2a35a6ff3bfc18.woff2",
+    "static/media/vt323-vietnamese-400-normal.woff": "/Portfolio/static/media/vt323-vietnamese-400-normal.65a893535d646f2ff183.woff",
+    "index.html": "/Portfolio/index.html",
+    "main.bc8e5915.css.map": "/Portfolio/static/css/main.bc8e5915.css.map",
+    "main.f021a117.js.map": "/Portfolio/static/js/main.f021a117.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc8e5915.css",
+    "static/js/main.f021a117.js"
+  ]
+}
