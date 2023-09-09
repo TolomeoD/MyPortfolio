@@ -1,0 +1,360 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: calc(10px + 1vmin);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+.typewriter {
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter span {
+  font-family: 'VT323', sans-serif;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .25em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+.Home {
+  text-align: center;
+}
+
+.Home-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.Home-header {
+  /* background-color: #282828; */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: #3A3B3C;
+  animation: gradient 4s infinite;
+  animation-direction: alternate;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes gradient {
+  from {background-color: #3A3B3C;}
+  to {background-color: #18191A;}
+}
+
+.Home-link {
+  background-color: #b1f2ff;
+  font-family: 'VT323', sans-serif;
+  margin: 1rem;
+  /* color: #61dafb; */
+  color: #3776ab;
+  text-decoration: none;
+  padding: 5px;
+  border: 1px solid #dadada;
+  border-radius: 7px;
+  border-color: #3776ab;
+  transition: width 2s, height 2s, transform 2s;
+  opacity: 0.6;
+  transition: 2s;
+}
+
+.Home-link:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.Header {
+  margin-bottom: 3rem;
+  padding: 3rem 2rem 0; 
+}
+
+.Header a {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Header-title {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 0;
+  font-size: calc(10px + 10vmin)
+}
+
+.Gallery {
+  padding: 0 10rem 2rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.Card {
+  flex: 0 0 28%;
+  padding: 0;
+  margin: 0;
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+}
+
+.Card-title {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.Card a {
+  height: 100%;
+  width: 100%;
+}
+
+.Card p {
+  font-size: calc(6px + 1vmin);
+  text-align: left;
+}
+
+.Card .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel{
+  position: relative;
+}
+
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-images img {
+  width: 100%;
+  height: 20vmin;
+  border-radius: 8px;
+  flex: 1 1 100%;
+}
+
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  background-color: transparent;
+  opacity: 0.6;
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.carousel-indicator {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  background-color: #333;
+  width: 1vmin;
+  height: 1vmin;
+  border-radius: 50%;
+}
+
+.active {
+  background-color: #3776ab;
+}
+
+.About-me-container {
+  padding: 2rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.About-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  flex: 0 0 75%;
+}
+
+.About-me p {
+  text-align: left;
+  font-size: calc(10px + 1vmin);
+}
+
+.About-me .title {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: calc(10px + 8vmin);
+}
+
+.profile {
+  width: 25vmin;
+  height: 25vmin;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile img{
+  width: 100%;
+}
+
+.overview {
+  margin-bottom: 5%;
+}
+
+.header {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 5%;
+  font-size: calc(10px + 3vmin)
+}
+
+.project-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-body .container {
+  height: auto;
+  width: 80%;
+  margin: 0 auto 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project-body .container img {
+  height: 30vmin;
+}
+
+.project-body .container p {
+  text-align: left;
+}
+
+.project-body .overview div {
+  padding: 0 25%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.list {
+  margin-bottom: 0;
+}
+
+.project-body .container .img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-body .img-container img{
+  height: 25vmin;
+}
+
+.project-body .container .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.learned {
+  margin-bottom: 2%;
+}
+
+.next-project {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: calc(10px + 6vmin);
+  border: 1px solid;
+  border-radius: 7px;
+  margin-bottom: 5%;
+  align-self: center;
+  padding: 0 1% 0.5%;
+  width: fit-content;
+}
+
+.next-project:hover {
+  transform: scale(1.1);
+}
+
+.project-body .container .img-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
