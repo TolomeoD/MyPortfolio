@@ -11,7 +11,7 @@ export default function DomainManager() {
         </h2>
         <div>
           The following describes the contributions I made to CSC's Domain Manager system.
-          The key features I assisted with were the bulk search, truncation, and domain deletion.
+          The key features I assisted with were the domain search, truncation, and deletion.
         </div>
       </div>
       <div className="container">
@@ -37,8 +37,9 @@ export default function DomainManager() {
           <p>
             My primary role at CSC was on a development team, creating UI componets utilizing a React with Redux framework.  Our
             project was to create a new online domain managment system called Domain Manager, and the key features I created were
-            aspects of the bulk search functionality for finding several domains at once, domain truncation to create a more 
-            intuitive user experience, and some of the back-end processes for domain deletion. 
+            aspects of the domain search functionality, domain truncation to create a more intuitive user experience, and some of 
+            the back-end processes for domain deletion. Due to proprietary reasons, I cannot include more information or images of 
+            the project, however to the right is a snapshot of the old Domain Manager service.
           </p>
         </div>
         <div className="img-container">
