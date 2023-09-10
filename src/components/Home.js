@@ -14,7 +14,7 @@ export default function Home() {
         </div>
         <Link
           className="Home-link"
-          to="portfolio"
+          to="/MyPortfolio/portfolio"
         >
           Portfolio
         </Link>

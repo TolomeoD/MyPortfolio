@@ -114,7 +114,7 @@ export default function WheresRobdo() {
           </ul>
         </div>
       </div>
-      <Link className="next-project" to="/portfolio/DomainManager">
+      <Link className="next-project" to="/MyPortfolio/portfolio/DomainManager">
         Next Project
       </Link>
     </div>

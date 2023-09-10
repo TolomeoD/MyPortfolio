@@ -12,38 +12,38 @@ import WheresRobdo from './components/WheresRobdo';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/portfolio" element={
+      <Route path="/MyPortfolio" element={<Home/>} />
+      <Route path="/MyPortfolio/portfolio" element={
         <>
           <Header title="Portfolio"/>
           <Gallery/>
         </>
       } />
-      <Route path="portfolio/Where'sRobdo" element={
+      <Route path="/MyPortfolio/portfolio/Where'sRobdo" element={
         <>
           <Header title="Where's Robdo"/>
           <WheresRobdo/>
         </>
       } />
-      <Route path="portfolio/McDatabases" element={
+      <Route path="/MyPortfolio/portfolio/McDatabases" element={
         <>
           <Header title="McDatabases"/>
           <McDatabases/>
         </>
       } />
-      <Route path="portfolio/Oneboard" element={
+      <Route path="/MyPortfolio/portfolio/Oneboard" element={
         <>
           <Header  title="Oneboard"/>
           <Oneboard/>
         </>
       } />
-      <Route path="portfolio/EthicEat" element={
+      <Route path="/MyPortfolio/portfolio/EthicEat" element={
         <>
           <Header  title="Ethical Eats"/>
           <EthicEat/>
         </>
       } />
-      <Route path="portfolio/DomainManager" element={
+      <Route path="/MyPortfolio/portfolio/DomainManager" element={
         <>
           <Header  title="Domain Manager"/>
           <DomainManager/>

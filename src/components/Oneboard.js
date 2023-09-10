@@ -72,7 +72,7 @@ export default function OneBoard() {
           </ul>
         </div>
       </div>
-      <Link className="next-project" to="/portfolio/EthicEat">
+      <Link className="next-project" to="/MyPortfolio/portfolio/EthicEat">
         Next Project
       </Link>
     </div>

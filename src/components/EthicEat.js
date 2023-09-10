@@ -85,13 +85,10 @@ export default function EthicEat() {
             <li>
               How to merge and manage branch conflics through the terminal 
             </li>
-            <li>
-              Maintaining a truly ethical diet is very hard
-            </li>
           </ul>
         </div>
       </div>
-      <Link className="next-project" to="/portfolio/McDatabases">
+      <Link className="next-project" to="/MyPortfolio/portfolio/McDatabases">
         Next Project
       </Link>
     </div>

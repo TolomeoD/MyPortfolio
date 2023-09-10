@@ -26,9 +26,9 @@ export default function Gallery() {
       <ul className="Gallery">
       <li className="Card">
           <div className="image-container">
-            <Carousel images={WRs} to={"/portfolio/Where'sRobdo"}/>
+            <Carousel images={WRs} to={"/MyPortfolio/portfolio/Where'sRobdo"}/>
           </div>
-          <Link to="/portfolio/Where'sRobdo">
+          <Link to="/MyPortfolio/portfolio/Where'sRobdo">
             <div className="Card-title">
               Where's Robdo
             </div>
@@ -40,9 +40,9 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={DMs} to={"/portfolio/DomainManager"}/>
+            <Carousel images={DMs} to={"/MyPortfolio/portfolio/DomainManager"}/>
           </div>
-          <Link to="/portfolio/DomainManager">
+          <Link to="/MyPortfolio/portfolio/DomainManager">
             <div className="Card-title">
               Domain Manager
             </div>
@@ -54,9 +54,9 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={OBs} to={"/portfolio/Oneboard"}/>
+            <Carousel images={OBs} to={"/MyPortfolio/portfolio/Oneboard"}/>
           </div>
-          <Link to="/portfolio/Oneboard">
+          <Link to="/MyPortfolio/portfolio/Oneboard">
             <div className="Card-title">
               Oneboard
             </div>
@@ -68,9 +68,9 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={EEs} to={"/portfolio/EthicEat"}/>
+            <Carousel images={EEs} to={"/MyPortfolio/portfolio/EthicEat"}/>
           </div>
-          <Link to="/portfolio/EthicEat">
+          <Link to="/MyPortfolio/portfolio/EthicEat">
             <div className="Card-title">
               Ethical Eats
             </div>
@@ -82,9 +82,9 @@ export default function Gallery() {
         </li>
         <li className="Card">
           <div className="image-container">
-            <Carousel images={MDs} to={"/portfolio/McDatabases"}/>
+            <Carousel images={MDs} to={"/MyPortfolio/portfolio/McDatabases"}/>
           </div>
-          <Link to="/portfolio/McDatabases">
+          <Link to="/MyPortfolio/portfolio/McDatabases">
             <div className="Card-title">
               McDatabases
             </div>
