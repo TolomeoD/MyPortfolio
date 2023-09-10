@@ -6,7 +6,7 @@ export default function Header(props) {
   return (
     <div className="Header">
       <Link to={path === "/MyPortfolio/portfolio" ? "/MyPortfolio" : "/MyPortfolio/portfolio"} >
-        {path === "MyPortfolio/portfolio" ? "Home" : "Portfolio"}
+        {path === "/MyPortfolio/portfolio" ? "Home" : "Portfolio"}
       </Link>
       <div className={path === "/MyPortfolio/portfolio" ? "Header-title" : "Header-title smaller"}>
         {props.title}
