@@ -59,7 +59,7 @@ export default function McDatabases() {
           <p>
             Our final web-application included basic syling for usability, and tabs that corresponded to each of the tables in the database.
             For each tab on the website the entries in the corresponding table were listed followed by interactable elements for inserting, updating,
-            or deleting entries in that table.  The effects would be shown to cascade in another table was openned, and the changes made via the UI
+            or deleting entries in that table.  The effects would be shown to cascade in another table was openned, and changes made via the UI
             were permanently relfected in the database. 
           </p>
         </div>

@@ -75,7 +75,7 @@ export default function Gallery() {
               Ethical Eats
             </div>
             <p>
-              App designed to display food that fit your ethical diet.  Includes features for ingredient and recipe searches, 
+              App designed to help users find foods that fit their ethical diet.  Includes features for ingredient and recipe searches, 
               and allows users to save ingredients or recipies for later use.
             </p>
           </Link>
@@ -90,7 +90,7 @@ export default function Gallery() {
             </div>
             <p>
               Database driven website created as a final project for Oregon State University's Databases class.
-              Created a fictional McDonald's application where users can manipulate a database utilizing MariaDB.
+              Created a fictional McDonald's application where users can manipulate a database made with MariaDB.
             </p>
           </Link>
         </li>

@@ -14,7 +14,7 @@ export default function EthicEat() {
         <div>
           The following project was created as a final group project for Oregon State University's
           Software Engineering class.  This project is meant to combine student's pre-existing Web-Development knowledge
-          and an agile workflow to tackle a health related issue.
+          and an agile workflow to tackle a personal health related issue.
         </div>
       </div>
       <div className="container">

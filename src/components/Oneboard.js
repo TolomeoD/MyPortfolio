@@ -13,7 +13,7 @@ export default function OneBoard() {
         </h2>
         <div>
           The project descriptions below outline contributions I made to Oneboard's online whiteboard product.
-          The key contributions I made to this project was the creation of the participant tab, list, and features.
+          The key contributions I made to this project were the creation of the participant tab, list, and features.
         </div>
       </div>
       <div className="container">
@@ -61,7 +61,7 @@ export default function OneBoard() {
               Deployment of front end infrastructure for a large scale online product using React
             </li>
             <li>
-              Proficiency in front end development utilizing a React framework
+              Utilizing a React framework
             </li>
             <li>
               Utilizing github and branch managment for a large scale application via the terminal

@@ -25,7 +25,7 @@ export default function DomainManager() {
           <p>
             Corporation Service Company (CSC) is a buisness service provider that operates in a range of sectors including
             human resources, legal management, and digital brand services (DBS).  During my two internships with CSC I primarily
-            worked under DBS in domain name services, which provided security and management systems for thier clients' domains.
+            worked under DBS in domain name services, which provided security and management systems for clients' domains.
           </p>
         </div>
       </div>
@@ -70,7 +70,7 @@ export default function DomainManager() {
               Good documentation, coding, and organization practices 
             </li>
             <li>
-              Working with QA testers and creating effective unit tests for componets I created
+              Working with QA testers and creating effective unit tests for components I created
             </li>
           </ul>
         </div>

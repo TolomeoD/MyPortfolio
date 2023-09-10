@@ -14,8 +14,8 @@ export default function WheresRobdo() {
         </h2>
         <div>
           The following web-app was created as a final group project for Oregon State University's
-          Web-Development class.  It is a culmination of all lessons taught in this class, and 
-          students were allowed full creative freedom. 
+          Web-Development class.  Students were allowed full creative freedom, and the project itself is
+          meant to be a culmination of all the lessons taught in this class 
         </div>
       </div>
       <div className="container">
@@ -55,12 +55,12 @@ export default function WheresRobdo() {
           </h2>
           <p>
             Given the nature of this project we wanted to create something entirely unique, and landed on the idea of building a game
-            because we all shared an interest in gaming. Since the project itself was for a Web-Dev class, we didn't want to get to carried
-            away with the complexity of the game and decided to build our website around a Where's Waldo-esque game because of its simple 
-            and replayable nature. We also wanted to show appreciation for our Professor, Rob, and given his permission we were allowed to
+            as we all shared an interest in gaming. Since the project itself was for a Web-Dev class, we didn't want to get to carried
+            away with the complexity of the game and decided to build our website around a Where's Waldo-esque game because of its simplicity 
+            and replayability. We also wanted to show appreciation for our Professor, Rob, and given his permission we were allowed to
             incorperate him into our project. To the left are our initial mock-ups for the home and gallery pages.  The home page would allow
-            users to play and like a puzzle, and had a button to randomly generate a new puzzle.  We also wanted to use a gallery page to
-            fulfill the backed requirements of the app, and intended to show users the puzzles that have received the most likes.
+            users to play, like, and randomly generate a new puzzle.  We also wanted to use a gallery page to
+            fulfill the backed requirements of the app, and intended to show users the most popular puzzles.
           </p>
         </div>
         <div className="img-container">
@@ -79,8 +79,8 @@ export default function WheresRobdo() {
           </h2>
           <p>
             Our group only had a few deviations from our intial idea and mock-ups.  We opted for users to be able to see all puzzles that they
-            liked in their gallery, and included how many likes each puzzle had instead of showcasing the most liked puzzles.  We also deciced 
-            against a carousel design for the gallery and created a grid based design for enhanced usability.  
+            liked in their gallery, and included how many likes each puzzle had instead of showcasing the most popular puzzles.  We also deciced 
+            against a carousel design for the gallery and made it grid based for enhanced usability.  
           </p>
         </div>
       </div>
