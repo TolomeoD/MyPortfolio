@@ -38,7 +38,7 @@ export default function DomainManager() {
             My primary role at CSC was on a development team, creating UI componets utilizing a React with Redux framework.  Our
             project was to create a new online domain managment system called Domain Manager, and the key features I created were
             aspects of the domain search functionality, domain truncation to create a more intuitive user experience, and some of 
-            the back-end processes for domain deletion. Due to proprietary reasons, I cannot include more information or images of 
+            the back-end processes for domain deletion. For proprietary and confidentiality reasons, I cannot include more information or images of 
             the project, however to the right is a snapshot of the old Domain Manager service.
           </p>
         </div>
