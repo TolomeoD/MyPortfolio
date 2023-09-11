@@ -1,10 +1,11 @@
 # Welcome to my Portfolio!
 
-## URL: https://tolomeod.github.io/MyPortfolio/
+Hello, My name is Dominick Tolomeo and I am a 4th year Computer Science Major at Oregon State University.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visit the portfolio here: https://tolomeod.github.io/MyPortfolio/
 
 ## Learn More
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
